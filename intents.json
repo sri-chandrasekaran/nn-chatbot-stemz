@@ -1,0 +1,48 @@
+{"intents": [
+
+    {"tag": "greetings", 
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    }, 
+    
+    {"tag": "goodbye", 
+    "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good Day", "bye", "ciao", "see ya"],
+    "responses": ["Goodbye!", "Talk to you later"]
+    }, 
+
+    {"tag": "name", 
+    "patterns": ["What is your name", "what should I call you", "whats your name", "who are you", "can you tell me your name", "can you tell me who you are", "name"],
+    "responses": ["You can call me STEMzBot", "I'm STEMzBot!", "I'm STEMzBot the assistant of STEMz Learning"]
+    }, 
+
+    {"tag": "classes", 
+    "patterns": ["what classes are being held", "where can i register for classes?", "sign me up for a class", "Zoom classes?", "class", "classes"],
+    "responses": ["Please refer to our Online Classes page!", "Our available Zoom classes can be seen on our Online Classes page.", "To register for classes, head to the Online Classes page."]
+    }, 
+
+    {"tag": "courses", 
+    "patterns": ["What courses can I do from home?", "Where can I find courses to do from home", "i want courses i can help my child with", "i want courses i can do by myself", "give me courses to do from home", "course", "courses"],
+    "responses": ["We have a variety of courses including: Astronomy, Basics of Coding, Chemistry, and so much more! To see these courses take a look at our Self-Paced Classes page.", "Please refer to the Self-Paced Classes page.", "To do courses at your own pace, either by yourself or with the help of a parent, take a look at the Self-Paced Classes page."]
+    }, 
+
+    {"tag": "money", 
+    "patterns": ["I want to donate to STEMz Learning", "donations", "I want to give STEMz Learning money", "money", "donate", "paypal", "venmo"],
+    "responses": ["To donate, please refer to our Get Involved Page to find our Paypal and Venmo!"]
+    }, 
+
+    {"tag": "apply", 
+    "patterns": ["i want to be a teacher or make curriculum", "i want to be involved with STEMz Learning", "i want to work at STEMz Learning", "is STEMz Learning hiring?", "i'm not in school, can i still be volunteer?", "volunteer", "engineer", "hire", "application", "apply"],
+    "responses": ["Thank you for your interest in volunteering with STEMz Learning. Please refer to our Get Involved page.", "Thanks for your interest in getting involved with STEMz Learning. Please send us a message using our Contact page and we will get back to you shortly.", "Our volunteer program is designed for high school and college students. If this isn't you, send us a message and we would love to discuss any opportunities at STEMz Learning for you."]
+    }, 
+
+    {"tag": "get involved", 
+    "patterns": ["I want my school to partner with STEMz Learning.", "How can my company sponsor STEMz Learning?", "I want to become a member", "membership", "i want to help", "partnerships", "schools", "help", "help me"],
+    "responses": ["Please refer to our Get Involved Page for more information.", "Please send us a message using our Contact Page and we will help you shortly."]
+    },
+
+    {"tag": "about", 
+    "patterns": ["Where was STEMz Learning started", "Who are STEMz Learning's leaders", "How did STEMz Learning start"],
+    "responses": ["Please refer to our About Us Page for more information."]
+    }
+
+]}
